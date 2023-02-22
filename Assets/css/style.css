@@ -1,0 +1,185 @@
+* {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    justify-content: space-evenly;
+}
+
+
+nav a :any-link {
+    color: #000;
+    }
+
+nav :is(a:hover, a:focus) {
+    color: darkolivegreen hsla(0%, 15%, 0.5); 
+
+}
+
+nav a:active {
+    color: rgb(155, 155, 186);
+}
+
+#about img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+#work a img {
+     width: 100%;
+    max-width: 500px;
+}
+
+#work a {
+ margin: 0 auto;
+}
+
+.project:hover {
+    scale: 1.2;
+
+}
+
+.email {
+    text-align: center;
+}
+
+#banner {
+    background-color: rgb(181, 181, 128);
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+#banner h2 {
+    /* margin: 20px; */
+    padding: 10px;
+}
+main { 
+    display: block;
+    margin: 0 auto;
+    
+    padding: 2rem;
+    max-width: 1200px ;
+
+    
+
+}
+main section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:stretch;
+    margin: 1rem 0;
+    /* padding: 1rem 0 */
+    min-height: 200px;
+    background-color: rgb(234, 243, 219);
+}
+main section h3
+{
+    flex: 0 0 20%;
+    font-size: 2rem;
+    text-align: right;
+    border-right: 6px solid black;
+    padding-right: 1rem;
+    
+    
+
+    
+
+    
+}
+main section div {
+    flex: 0 0 70%;
+    padding: 1rem;
+    margin:auto 0;
+
+}
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    body {
+        background-color: green;
+        background-image: radial-gradient(whitesmoke, green);
+        }
+
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    #banner {
+        justify-content: center;
+    }
+
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        min-width: 300px;
+        justify-content: space-evenly;
+    }
+    main section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items:stretch;
+        margin: 1rem 0;
+        /* padding: 1rem 0 */
+        min-height: 200px;
+    }
+    main section h3
+    {
+        flex: 0 0 100%;
+        font-size: 2rem;
+        text-align: center;
+        border-bottom: 6px solid black;
+        border-right: 0;
+        padding-right: 1rem;
+        
+        
+    
+        
+    
+        
+    }
+    main section div {
+        flex: 0 0 100%;
+        padding: 1rem;
+        margin:auto 0;
+    
+    }
+
+
+
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    body {
+
+        background-color: gold;
+        background-image: radial-gradient( whitesmoke, gold);
+
+    }
+
+}
+
