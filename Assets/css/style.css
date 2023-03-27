@@ -38,13 +38,14 @@ nav a:active {
 
 
 }
-
-#work img {
-    height: 100%;
-    width: 100%;
-    border:80px;
-
+/* add class "work" into your style.css file and assign styling you want like width:45%; padding:20px; float:left" etc */
+work {
+padding: 20px;
+width: 60%;
+float: right;
 }
+
+
 
 #work a {
  margin: 0 auto;
