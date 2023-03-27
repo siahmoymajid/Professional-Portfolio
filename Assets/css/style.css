@@ -33,21 +33,27 @@ nav a:active {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
+    border-radius: 200px 200px 200px 200px;
+       
+
 
 }
 
-#work a img {
-     width: 100%;
-    max-width: 500px;
-    
+#work img {
+    height: 100%;
+    width: 100%;
+    border:80px;
+
 }
 
 #work a {
  margin: 0 auto;
+ 
 }
 
 .project:hover {
     scale: 1.2;
+    
 
 }
 
